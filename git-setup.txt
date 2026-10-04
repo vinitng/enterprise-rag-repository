@@ -29,3 +29,13 @@ git commit -m "Initial commit of enterprise-rag files"
 5. **Push your files to GitHub:** Uploads your code to main branch.
 
 git push -u origin main
+
+---------------------------------------------------------
+Added a new file git add git-setup.txt
+---------------------------------------------------------
+enterprise-rag-repository>git add git-setup.txt
+
+enterprise-rag-repository>git commit -m "Added git-setup.txt"
+
+enterprise-rag-repository>git push origin main
+
