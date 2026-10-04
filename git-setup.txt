@@ -39,3 +39,17 @@ enterprise-rag-repository>git commit -m "Added git-setup.txt"
 
 enterprise-rag-repository>git push origin main
 
+
+
+---------------------------------------------------------
+updated GIT  a new file git add git-setup.txt
+---------------------------------------------------------
+
+enterprise-rag-repository>git push origin main
+Everything up-to-date
+
+enterprise-rag-repository>git commit -m "Edited git-setup.txt"
+[main 7c4756c] Edited git-setup.txt
+ 1 file changed, 10 insertions(+)
+
+enterprise-rag-repository>git push origin main
