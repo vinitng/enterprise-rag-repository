@@ -1,0 +1,31 @@
+# Enterprise RAG Repository
+Production-ready reference structure.
+
+Git Process 
+I have created a repo in git hub https://github.com/vinitng/enterprise-rag-repository  I have a local directory structure and want to add this to github D:\wega\enterprise-rag\enterprise-rag-repository>git remote add origin https://github.com/vinitng/enterprise-rag-repository.git
+fatal: not a git repository (or any of the parent directories): .git
+-----------------------------
+The error `fatal: not a git repository` occurs because the directory `D:\wega\enterprise-rag\enterprise-rag-repository` hasn't been initialized as a local Git repository yet.
+--------------------------------------
+To link your local folder to your GitHub repository and push your files, follow these steps in order in your command prompt:
+==================================================================
+1. **Initialize the local Git repository:** Creates the hidden .git directory in your local folder.
+
+git init
+
+2. **Set the default branch to main:** Aligns with GitHub's default branch naming.
+
+git branch -M main
+
+3. **Add the GitHub remote URL:** Connects your local repository to GitHub.
+
+git remote add origin https://github.com/vinitng/enterprise-rag-repository.git
+
+4. **Stage and commit your local files:** Prepares your files for upload.
+
+git add .
+git commit -m "Initial commit of enterprise-rag files"
+
+5. **Push your files to GitHub:** Uploads your code to main branch.
+
+git push -u origin main
